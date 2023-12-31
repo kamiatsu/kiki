@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* common  */
+
+
+
+html{
+  font-size: 100%;
+}
+
+body{
+  margin: 0;
+  background-color: rgb(242, 242, 242);
+}
+
+img{
+  max-width: 100%;
+  height: 70%;
+  vertical-align: bottom;
+  margin-bottom: 124px;;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.wrapper{
+  max-width: 1800px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+/* header */
+
+h1{
+  margin-left: 64px;
+  margin-right: 30%;
+  font-size: 3.00rem;
+}
+
+#header .kkk{
+  display: flex;
+}
+
+#header .ul{
+  display: flex;
+  list-style-type: none;
+  color: black;
+}
+
+
+ #header .menue li{
+  width: 150px;
+  height: 100px;
+  line-height: 80px;
+  font-size: 1.20rem;
+  display: inline-block;
+ }
+
+ 
+
+ #header .menue a{
+  text-decoration: none;
+  color: black;
+ }
+
+ #header img{
+  width: 100%;
+  height: 1120px;
+  object-fit: cover;
+ }
+
+ h2{
+  font-size: 4.50em;
+  text-align: center;
+  opacity: 0.8;
+ }
+
+
+/* main */
+
+#menue img{
+  width: 1200px;
+  margin-right: 62px;
+}
+
+
+#menue .seoul{
+  display:flex;
+  font-style: oblique;
+  font-weight: 400;
+  font-size: 2.50em;
+  align-items: center;
+}
+
+#menue .seoul img{
+  max-width: 100%;
+  position:relative;
+  top: 120px;
+  left: 62px;
+  
+}
+
+#menue .box{
+  width: 55%;
+  background-color: #fff;
+  padding: 200px 8% 200px 6%;
+  padding-bottom: 130px;
+  margin-left: -180px;
+  }
+
+  .actualmenue {
+    display:flex; 
+    margin-top: 71px; 
+  }
+
+  .actualmenue li{
+    width: 930px;
+    margin-right: 36px;
+  }
+
+
+  /* signature  */
+  #menue img{
+    width: 1030px;
+    height: 730px;
+  }
+
+  .reversed {
+    flex-direction: row-reverse;
+  }
+
+
+  #menue .bibimbap {
+    display: flex;
+  }
+
+  #menue  h3{
+    font-weight: 600;
+    font-size: 3.30rem;
+  }
+
+  #menue p{
+    display:contents;
+    font-size: 1.98rem;
+    display:block;
+  }
+
+  #menue .ppp{
+    display:block;
+  }
+
+
+  /* Delivery  */
+
+
+  #delivery .delivery {
+    text-align: center;
+  }
+
+  #delivery .delivery img{
+    border-radius: 80%;
+    margin: 10px 160px 10px 160px;
+  }
+
+  #delivery .delivery :hover{
+    opacity: 0.8;
+  }
+
+  #delivery p{
+    text-align: center;
+    font-size: 3.50rem;
+    margin-bottom: 250px;
+  }
+
+
+
+  /* location  */
+
+  #location img{
+    margin-left: 20%;
+
+  }
+
+  
+
+  #location :hover{
+    opacity: 0.9;
+  }
+
+  #location p{
+    text-align: center;
+    font-size: 1.80rem;
+    margin-bottom: 250px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+
+#contact p{
+  font-size: 2.40rem;
+  text-align: center;
+  margin-bottom: 250px;
+}
+
+
+/* footer */
+
+footer{
+  background-color: rgb(255, 255, 255);
+  color: rgb(22, 22, 23);
+  padding:12px;
+  margin: 0;
+}
+
+footer .insta{
+  position: relative;
+  top: 11px;
+}
+
+footer .sns :last-child{
+  margin-left: 32px;
+}
+
+
+footer p{
+  font-size: 22px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* width <=800px */
+
+@media (max-width: 800px) {
+
+
+  h2{
+    font-size: 2.40rem;
+  }
+  #header h1{
+    font-size: 2.20rem;
+  }
+
+  #header ul{
+    display: inline-block;
+  }
+
+  #header li{
+    /* margin-right: 2px; */
+  }
+
+  #header .kkk{
+    display: block;
+  }
+  
+ #menue .seoul {
+  display: block;
+ }
+
+ #menue .box{
+  position: relative;
+  left: 310px;
+  bottom: 72px;
+  z-index: 1;
+  padding: 120px;
+ }
+
+ #menue img{
+  width: 700px;
+  height:600px;
+  z-index: 2;
+}
+  #header ul{
+    display: block;
+  }
+
+  #menue ul{
+    display: block;
+    position: relative;
+    right: 110px;
+  }
+
+  #menue li{
+    height: 750px;
+  }
+
+  #menue .bibimbap{
+    display: block;
+  }
+
+  #menue h3{
+    font-size: 2.10rem;
+  }
+
+
+  #delivery .delivery img{
+    width: 240px;
+    display: inline-block;
+
+  }
+
+  #delivery p{
+    font-size: 2.3rem;
+  }
+
+
+
+
+  }
+
+
