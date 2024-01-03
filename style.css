@@ -257,12 +257,7 @@ footer p{
 
 /* width <=800px */
 
-@media only screen and (max-width: 375px) {
-
-  body{
-  justify-content: center;
-  align-items: center;
-  }
+@media only screen and (max-width: 800px) {
 
 
   h2{
@@ -293,7 +288,7 @@ footer p{
   left: 310px;
   bottom: 72px;
   z-index: 1;
-  padding: 120px;
+  padding: 90px;
  }
 
  #menue img{
@@ -311,7 +306,7 @@ footer p{
 
   #menue li{
     height: 650px;
-    width: 350px;
+    width: 370px;
   }
 
   #menue .bibimbap{
