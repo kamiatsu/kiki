@@ -257,7 +257,12 @@ footer p{
 
 /* width <=800px */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 375px) {
+
+  body{
+  justify-content: center;
+  align-items: center;
+  }
 
 
   h2{
