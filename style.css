@@ -259,13 +259,9 @@ footer p{
 
 @media (max-width: 800px) {
 
-  body{
+  /* body{
     text-align: center;
-  }
-
-  img{
-    width: 100%;
-  }
+  } */
 
 
   h2{
@@ -293,7 +289,7 @@ footer p{
 
  #menue .box{
   position: relative;
-  left: 310px;
+  left: 270px;
   bottom: 72px;
   z-index: 1;
   padding: 90px;
