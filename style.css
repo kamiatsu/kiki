@@ -116,7 +116,7 @@ h1{
   }
 
   .actualmenue li{
-    width: 930px;
+    width: 630px;
     margin-right: 36px;
   }
 
@@ -246,6 +246,13 @@ footer p{
 
 
 
+    
+
+
+
+
+
+
 
 
 /* width <=800px */
@@ -295,12 +302,11 @@ footer p{
 
   #menue ul{
     display: block;
-    position: relative;
-    right: 110px;
   }
 
   #menue li{
-    height: 750px;
+    height: 650px;
+    width: 550px;
   }
 
   #menue .bibimbap{
