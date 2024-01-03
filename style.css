@@ -317,6 +317,11 @@ footer p{
     font-size: 2.10rem;
   }
 
+  #location img{
+    position: relative;
+    right: 10%;
+  }
+
 
   #delivery .delivery img{
     width: 240px;
