@@ -256,93 +256,106 @@ footer p{
 
 
 /* width <=800px */
+  @media only screen and (max-width: 800px) {
 
-@media only screen and (max-width: 800px) {
-
-  /* body{
+    
+  body{
+    margin: auto;
     text-align: center;
-  } */
-
-body{
-  margin: 0;
-}
-
-  h2{
-    font-size: 2.40rem;
-  }
-  #header h1{
-    font-size: 2.20rem;
-  }
-
-  #header ul{
-    display: inline-block;
-  }
-
-  #header li{
-    /* margin-right: 2px; */
-  }
-
-  #header .kkk{
-    display: block;
   }
   
- #menue .seoul {
-  display: block;
- }
-
- #menue .box{
-  position: relative;
-  left: 270px;
-  bottom: 72px;
-  z-index: 1;
-  padding: 90px;
- }
-
- #menue img{
-  width: 700px;
-  height:600px;
-  z-index: 2;
-}
-  #header ul{
+    h2{
+      font-size: 2.40rem;
+    }
+    #header h1{
+      font-size: 1.80rem;
+    }
+  
+    #header ul{
+      display: inline-block;
+    }
+  
+    #header .menue li{
+      font-size: 0.90rem;
+      
+    }
+  
+    #header .kkk{
+      display: block;
+    }
+    
+   #menue .seoul {
     display: block;
-  }
-
-  #menue ul{
-    display: block;
-  }
-
-  #menue li{
-    height: 650px;
-    width: 370px;
-  }
-
-  #menue .bibimbap{
-    display: block;
-  }
-
-  #menue h3{
-    font-size: 2.10rem;
-  }
-
-  #location img{
+   }
+  
+   #menue .box{
     position: relative;
-    right: 10%;
+    left: 270px;
+    bottom: 72px;
+    z-index: 1;
+    padding: 90px;
+   }
+  
+   #menue img{
+    width: 700px;
+    height:600px;
+    z-index: 2;
   }
+    #header ul{
+      display: block;
+    }
+  
+    #menue ul{
+      display: block;
+    }
+  
+    #menue li{
+      height: 650px;
+      width: 560px;
+    }
+  
+    #menue .bibimbap{
+      display: block;
+    }
+  
+    #menue h3{
+      font-size: 1.80rem;
+    }
+
+    #menue  .ppp p{
+      font-size: 1.50rem;
+    }
+
+    #menue .bibimbap img{
+      width: auto;
+    }
+
+  
 
 
-  #delivery .delivery img{
-    width: 240px;
-    display: inline-block;
+    
+  
+    #location img{
+      position: relative;
+      right: 10%;
+    }
+  
+  
+    #delivery .delivery img{
+      width: 240px;
+      display: inline-block;
+  
+    }
+  
+    #delivery p{
+      font-size: 2.3rem;
+    }
+  
+  
+  
+  
+    }
+  
+  
 
-  }
-
-  #delivery p{
-    font-size: 2.3rem;
-  }
-
-
-
-
-  }
-
-
+ 
