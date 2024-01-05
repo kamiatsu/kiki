@@ -256,11 +256,11 @@ footer p{
 
 
 /* width <=800px */
-  @media only screen and (max-width: 930px) {
+  @media only screen and (max-width: 1200px) {
 
   body{
     margin: 0;
-    width: 700px;
+    width: 900px;
   }
 
   body img{
@@ -268,10 +268,10 @@ footer p{
   }
   
     h2{
-      font-size: 2.40rem;
+      font-size: 2.60rem;
     }
     #header h1{
-      font-size: 2.80rem;
+      font-size: 3.10rem;
     }
   
     #header ul{
@@ -279,7 +279,7 @@ footer p{
     }
   
     #header .menue li{
-      font-size: 0.90rem;
+      font-size: 1.30rem;
       
     }
   
@@ -293,15 +293,15 @@ footer p{
   
    #menue .box{
     position: relative;
-    left: 270px;
+    left: 320px;
     bottom: 72px;
     z-index: 1;
     padding: 90px;
    }
   
    #menue img{
-    width: 700px;
-    height:600px;
+    width: 720px;
+    height:620px;
     z-index: 2;
   }
     #header ul{
@@ -313,8 +313,8 @@ footer p{
     }
   
     #menue li{
-      height: 650px;
-      width: 560px;
+      height: 700px;
+      width: 660px;
     }
   
     #menue .bibimbap{
@@ -345,17 +345,29 @@ footer p{
   
   
     #delivery .delivery img{
-      width: 240px;
+      width: 370px;
       display: inline-block;
-  
     }
+
   
     #delivery p{
       font-size: 2.3rem;
     }
   
   
-  
+
+    footer .sns a  img{
+      width: 92px;
+    }
+
+    footer .sns img :first-child{
+      width: 220px;
+    }
+
+    
+    footer .sns :last-child{
+      margin-left: 32px;
+    }
   
     }
   
