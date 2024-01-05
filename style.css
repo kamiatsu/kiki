@@ -257,12 +257,15 @@ footer p{
 
 /* width <=800px */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
   /* body{
     text-align: center;
   } */
 
+body{
+  margin: 0;
+}
 
   h2{
     font-size: 2.40rem;
