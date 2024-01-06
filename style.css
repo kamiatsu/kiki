@@ -260,7 +260,7 @@ footer p{
 
   body{
     margin: 0;
-    width: 1200px;
+    width: 1300px;
   }
 
   body img{
@@ -271,13 +271,13 @@ footer p{
       font-size: 2.60rem;
     }
     #header h1{
-      font-size: 3.10rem;
+      font-size: 6.10rem;
     }
 
 
     #header .mainimage {
-      width: 1200px;
-      height: 2000px;
+      max-width: 100%;
+      max-height: 90%;
     }
   
     #header ul{
