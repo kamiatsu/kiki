@@ -273,6 +273,12 @@ footer p{
     #header h1{
       font-size: 3.10rem;
     }
+
+
+    #header .mainimage {
+      width: 100%;
+      height: 80%;
+    }
   
     #header ul{
       display: inline-block;
@@ -293,15 +299,15 @@ footer p{
   
    #menue .box{
     position: relative;
-    left: 320px;
+    left: 430px;
     bottom: 72px;
     z-index: 1;
-    padding: 90px;
+    padding: 80px;
    }
   
    #menue img{
-    width: 720px;
-    height:620px;
+    width: 820px;
+    height:720px;
     z-index: 2;
   }
     #header ul{
@@ -313,8 +319,8 @@ footer p{
     }
   
     #menue li{
-      height: 700px;
-      width: 660px;
+      height: 990px;
+      width: 960px;
     }
   
     #menue .bibimbap{
