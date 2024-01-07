@@ -12,7 +12,7 @@ body{
   background-color: rgb(242, 242, 242);
 }
 
-img{
+.mainimage img{
   max-width: 100%;
   height: 70%;
   vertical-align: bottom;
@@ -116,7 +116,15 @@ h1{
   }
 
   .actualmenue li{
-    width: 630px;
+    width: 100%;
+    margin-right: 36px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+
+
+  #menue .actualmenue li img{
+    width: 500px;
     margin-right: 36px;
   }
 
@@ -180,8 +188,10 @@ h1{
 
   #location img{
     margin-left: 20%;
-
+    width: 1520px;
+    height: 900px;
   }
+
 
   
 
@@ -270,7 +280,7 @@ footer p{
     max-height: 100%;
   }
 
-  .mainimage img {
+  #header .mainimage img {
     width: 100%;
     height: 2420px;
     object-fit: cover;
@@ -278,7 +288,7 @@ footer p{
 
   
     h2{
-      font-size: 2.60rem;
+      font-size: 4.70rem;
     }
     #header h1{
       font-size: 5.80rem;
@@ -306,20 +316,23 @@ footer p{
    #menue .seoul {
     display: block;
    }
+
+  
   
    #menue .box{
     position: relative;
-    left: 430px;
-    bottom: 72px;
+    left: 670px;
+    bottom: 92px;
     z-index: 1;
-    padding: 80px;
+    padding: 90px;
    }
   
    #menue img{
-    width: 820px;
-    height:720px;
+    width: 1100px;
+    height:820px;
     z-index: 2;
   }
+
     #header ul{
       display: block;
     }
@@ -334,12 +347,12 @@ footer p{
     }
 
     #menue li{
-      margin-left: 402px;
+      margin-left: 502px;
     }
-  
+
     #menue li img{
-      width: 1320px;
-      height: 1290px;
+      width: 1000px;
+      height: 1000px;
     }
   
     #menue .bibimbap{
