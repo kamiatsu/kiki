@@ -288,7 +288,7 @@ footer p{
 
   
     h2{
-      font-size: 4.70rem;
+      font-size: 5.90rem;
     }
     #header h1{
       font-size: 5.80rem;
@@ -322,14 +322,16 @@ footer p{
    #menue .box{
     position: relative;
     left: 670px;
-    bottom: 92px;
+    top: 42px;
     z-index: 1;
     padding: 90px;
+    width: 1000px;
+    height: 600px;
    }
   
    #menue img{
-    width: 1100px;
-    height:820px;
+    width: 1300px;
+    height:1120px;
     z-index: 2;
   }
 
@@ -347,12 +349,17 @@ footer p{
     }
 
     #menue li{
-      margin-left: 502px;
+      margin-left: 70px;
+      margin-top: 700px;
+  
     }
 
-    #menue li img{
-      width: 1000px;
-      height: 1000px;
+    #menue .actualmenue li  img{
+      transform: scale(1.6);
+      width: 900px;
+      margin-bottom: 590px;
+      /* transform-origin: center; */
+
     }
   
     #menue .bibimbap{
