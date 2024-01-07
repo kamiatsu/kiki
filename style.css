@@ -273,7 +273,7 @@ footer p{
 
   body{
     margin: 0;
-    width: 1800px;
+    width: 1700px;
   }
 
   header {
@@ -364,6 +364,7 @@ footer p{
   
     #menue .bibimbap{
       display: block;
+      margin-bottom: 260px;
     }
   
     #menue h3{
