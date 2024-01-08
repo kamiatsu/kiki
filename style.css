@@ -99,14 +99,18 @@ h1{
   position:relative;
   top: 120px;
   left: 62px;
+  z-index: 2;
   
 }
 
 #menue .box{
   width: 55%;
   background-color: #fff;
-  padding: 200px 8% 200px 6%;
-  padding-bottom: 130px;
+  position: relative;
+  top: 250px;
+  z-index: 1;
+  padding: 200px 8% 10px 6%;
+  padding-bottom: 110px;
   margin-left: -180px;
   }
 
